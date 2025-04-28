@@ -2,7 +2,7 @@ class CampusCategoryFilters extends HTMLElement {
     constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.categorías = ["Todas", "Eventos", "Investigación", "servicios", "Vida estudiantil"];
+    this.categorías = ["Todas", "Eventos", "Investigación", "Servicios", "Vida estudiantil"];
     }
 
     connectedCallback() {

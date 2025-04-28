@@ -45,16 +45,15 @@ class campusNewsItem extends HTMLElement {
             </div>
     `;
 
-    this.shadowRoot.querySelector(".item").addEventListener("click", () => {
-        this.dispatchEvent(new CustomEvent("campus:article-selected", {
-            detail: { id: this._article.id },
+    this.shadowRoot.querySelector('.item').addEventListener('click', () => {
+        this.dispatchEvent(new CustomEvent('campus:article-select', {
+            detail: { id: this.article.id },
             bubbles: true,
-            composed: true,
+            composed: true
         }));
     });
-   }
+    }
 }
-
 customElements.define("campus-news-item", campusNewsItem);
 
 

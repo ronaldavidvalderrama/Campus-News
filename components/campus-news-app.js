@@ -20,11 +20,12 @@ class CampusNewsApp extends HTMLElement {
       this.updateDebug();
     });
 
-    this.addEventListener("campus:article-select", (e) => {
-      this.selectedArticleId = e.detail.id;
-      this.render();
-      this.updateDebug();
+    this.addEventListener('campus:article-select', (event) => {
+        const id = event.detail.id;
+        this.currentArticleId = id;
+        this.updateDetail();
     });
+
   }
 
   getFilteredArticles() {

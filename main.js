@@ -26,7 +26,7 @@ export const campusArticles = [
         content: "<p>La feria se llevará a cabo...</p>",
         author: "Centro de Emprendimiento",
         date: "15 de abril, 2025",
-        category: "vida estudiantil"
+        category: "Vida estudiantil"
     },
 
     {
