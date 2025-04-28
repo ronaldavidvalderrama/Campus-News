@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus News</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="main.js"  defer></script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Campus News</title>
+<link rel="stylesheet" href="css/styles.css" />
+
+<!-- Scripts -->
+<script type="module" src="main.js" defer></script>
+<script type="module" src="components/campus-news-app.js" defer></script>
+<script type="module" src="components/campus-category-filters.js" defer></script>
+<script type="module" src="components/campus-news-item.js" defer></script>
+<script type="module" src="components/campus-news-list.js" defer></script>
+<script type="module" src="components/campus-news-detail.js" defer></script>
+<script type="module" src="components/campus-debug-panel.js" defer></script>
 </head>
 <body>
-    <campus-news></campus-news>
+<!-- Este componente se encargará de todo -->
+<campus-news-app></campus-news-app>
+
 </body>
 </html>

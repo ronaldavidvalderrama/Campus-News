@@ -1,4 +1,5 @@
-const campusArticles = [
+
+export const campusArticles = [
     {
         id: 1,
         title: "Jornada de puertas abiertas en Ingeniería",
@@ -25,7 +26,7 @@ const campusArticles = [
         content: "<p>La feria se llevará a cabo...</p>",
         author: "Centro de Emprendimiento",
         date: "15 de abril, 2025",
-        category: "Estudiantil"
+        category: "vida estudiantil"
     },
 
     {
@@ -38,3 +39,6 @@ const campusArticles = [
         category: "Servicios"
     },
 ];
+
+
+
